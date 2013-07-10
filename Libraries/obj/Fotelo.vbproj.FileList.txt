@@ -1,0 +1,15 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\fotelo.Resources.resources
+obj\Debug\Fotelo.vbproj.GenerateResource.Cache
+obj\Debug\fotelo.dll
+obj\Debug\fotelo.xml
+obj\Debug\fotelo.pdb
+bin\fotelo.dll
+bin\fotelo.pdb
+bin\fotelo.xml
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\fotelo.Resources.resources
+obj\Release\Fotelo.vbproj.GenerateResource.Cache
+obj\Release\fotelo.dll
+obj\Release\fotelo.xml
+obj\Release\fotelo.pdb

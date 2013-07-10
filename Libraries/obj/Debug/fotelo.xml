@@ -1,0 +1,659 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+fotelo
+</name>
+</assembly>
+<members>
+<member name="F:fotelo.TextLayout.TableTypes.Position">
+ -----------------------------------------------------------------------------
+ <summary>
+   Table that has a fixed width between each field value.
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+ 	[Sean Patterson]	6/14/2004	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="F:fotelo.TextLayout.TableTypes.Delimeted">
+ -----------------------------------------------------------------------------
+ <summary>
+   Table that uses a specific character between each field value.
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+ 	[Sean Patterson]	6/14/2004	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="F:fotelo.TextLayout.TableTypes.Regex">
+ -----------------------------------------------------------------------------
+ <summary>
+   Table that uses a regular expression formula to group each field value.
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+ 	[Sean Patterson]	6/14/2004	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="T:fotelo.TextLayout.TableTypes">
+ -----------------------------------------------------------------------------
+ <summary>
+   Acceptable type definitions for a table
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+ 	[Sean Patterson]	6/14/2004	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="F:fotelo.TextLayout.strTableName">
+ -----------------------------------------------------------------------------
+ <summary>
+   The name of the data table.
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+ 	[Sean Patterson]	6/14/2004	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="F:fotelo.TextLayout.enumTableType">
+ -----------------------------------------------------------------------------
+ <summary>
+   The type of table.
+ </summary>
+	<remarks>
+   Accepted types are Position, Delimted, and Regex
+ </remarks>
+	<history>
+ 	[Sean Patterson]	6/14/2004	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="F:fotelo.TextLayout.intSkipRows">
+ -----------------------------------------------------------------------------
+ <summary>
+   The number of rows to skip before processing data during loading.
+ </summary>
+	<remarks>
+   This property is used to skip any header information that may exist in the file
+ </remarks>
+	<history>
+ 	[Sean Patterson]	6/14/2004	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="F:fotelo.TextLayout.strTableDelimiter">
+ -----------------------------------------------------------------------------
+ <summary>
+   The delimiter used for parsing delimited data.
+ </summary>
+	<remarks>
+   This property is used for Delimited type formats only.
+ </remarks>
+	<history>
+ 	[Sean Patterson]	6/14/2004	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="F:fotelo.TextLayout.strTableFormula">
+ -----------------------------------------------------------------------------
+ <summary>
+   The formula used for parsing Regex data.
+ </summary>
+	<remarks>
+   This property is used for Regex type formats only.
+ </remarks>
+	<history>
+ 	[Sean Patterson]	6/14/2004	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="F:fotelo.TextLayout.alColumns">
+ -----------------------------------------------------------------------------
+ <summary>
+   The collection of column information.
+ </summary>
+	<remarks>
+   The elements in the ArrayList are of type FormattedTextLoader.Column
+ </remarks>
+	<history>
+ 	[Sean Patterson]	6/14/2004	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="F:fotelo.TextLayout.bTrimSpace">
+ -----------------------------------------------------------------------------
+ <summary>
+   Indicates whether or not extra spaces should be trimmed from the parsed data.
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+ 	[c07884]	9/11/2006	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="P:fotelo.TextLayout.TableName">
+ -----------------------------------------------------------------------------
+ <summary>
+     Gets/Sets the table name.
+ </summary>
+	<value>TableName returns the strTableName data member.</value>
+	<remarks>
+	</remarks>
+	<history>
+ 	[Sean Patterson]	6/14/2004	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="P:fotelo.TextLayout.TableType">
+ -----------------------------------------------------------------------------
+ <summary>
+     Gets/Sets the table type.
+ </summary>
+	<value>TableType returns the enumTableType data member.</value>
+	<remarks>
+	</remarks>
+	<history>
+ 	[Sean Patterson]	6/14/2004	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="P:fotelo.TextLayout.SkipRows">
+ -----------------------------------------------------------------------------
+ <summary>
+     Gets/Sets the number of rows to skip.
+ </summary>
+	<value>SkipRows returns the intSkipRows data member.</value>
+	<remarks>
+	</remarks>
+	<history>
+ 	[Sean Patterson]	6/14/2004	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="P:fotelo.TextLayout.TableDelimiter">
+ -----------------------------------------------------------------------------
+ <summary>
+     Gets/Sets the table delimiter.
+ </summary>
+	<value>TableDelimiter returns the strTableDelimiter data member.</value>
+	<remarks>
+	</remarks>
+	<history>
+ 	[Sean Patterson]	6/14/2004	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="P:fotelo.TextLayout.TableFormula">
+ -----------------------------------------------------------------------------
+ <summary>
+     Gets/Sets the table formula.
+ </summary>
+	<value>TableFormula returns the strTableFormula data member.</value>
+	<remarks>
+	</remarks>
+	<history>
+ 	[Sean Patterson]	6/14/2004	Created
+ </history>
+-----------------------------------------------------------------------------
+
+</member><member name="P:fotelo.TextLayout.Columns">
+ -----------------------------------------------------------------------------
+ <summary>
+     Gets/Sets the table column collection
+ </summary>
+	<value>Columns returns the alColumns data member.</value>
+	<remarks>
+	</remarks>
+	<history>
+ 	[Sean Patterson]	6/14/2004	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="P:fotelo.TextLayout.TrimSpace">
+ -----------------------------------------------------------------------------
+ <summary>
+     Gets/Sets the number the trim space flag.
+ </summary>
+	<value>TrimSpace returns the bTrimSpace data member.</value>
+	<remarks>
+	</remarks>
+	<history>
+ 	[Sean Patterson]	6/14/2004	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:fotelo.TextLayout.#ctor">
+ -----------------------------------------------------------------------------
+ <summary>
+   Creates an empty TextLayout object.
+ </summary>
+	<remarks>
+   The constructor initializes the column collection for storage.
+ </remarks>
+	<history>
+ 	[Sean Patterson]	6/14/2004	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:fotelo.TextLayout.#ctor(System.String)">
+ -----------------------------------------------------------------------------
+ <summary>
+   Creates a TextLayout object using the information file specified.
+ </summary>
+	<param name="FileName">The file path containing table information in XML format.</param>
+	<remarks>
+   The constructor uses the ImportControlFile method to create the object using the data within the file.
+ </remarks>
+	<history>
+ 	[Sean Patterson]	6/14/2004	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:fotelo.TextLayout.ToString">
+ -----------------------------------------------------------------------------
+ <summary>
+   This method generates a string with the details of all the values in the object. 
+ </summary>
+	<returns>String formatted to contain the data members and their values of the object.</returns>
+	<remarks>
+   Useful for debugging the object.
+ </remarks>
+	<history>
+ 	[Sean Patterson]	6/14/2004	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:fotelo.TextLayout.ExportControlFile(System.String@)">
+ -----------------------------------------------------------------------------
+ <summary>
+   Serializes TextLayout object into an XML control file.
+ </summary>
+	<param name="strFileName">The file path of the resulting control file.</param>
+	<remarks>
+	</remarks>
+	<history>
+ 	[Sean Patterson]	6/14/2004	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:fotelo.TextLayout.ImportControlFile(System.String@)">
+ -----------------------------------------------------------------------------
+ <summary>
+   Deserializes XML control file into TextLayout object.
+ </summary>
+	<param name="strFileName">The file path of the control file.</param>
+	<remarks>
+   This method deserializes the filename specified into the class structure. The control file is XML 
+   formatted. Once the file has been deserialized, a few condition checks are made to ensure that the 
+   class will function properly. If these conditions are met, the values are passed into the class.
+   Otherwise, and exception is thrown.
+ </remarks>
+	<history>
+ 	[Sean Patterson]	6/14/2004	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:fotelo.TextLayout.IsValid">
+ -----------------------------------------------------------------------------
+ <summary>
+   Performs sanity check on object.
+ </summary>
+	<returns>Boolean value indicating if class is valid.</returns>
+	<remarks>
+   Since the class can be created through manual programming or file deserialization and modified,
+   this method provides a quick sanity check to make sure all the appropriate elements exist in the
+   text layout.
+ </remarks>
+	<history>
+ 	[Sean Patterson]	6/14/2004	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="T:fotelo.TextLayout">
+ -----------------------------------------------------------------------------
+ Project	 : Fotelo
+ Class	 : TextLayout
+ 
+ -----------------------------------------------------------------------------
+ <summary>
+   This module is designed to specify the data table configuration for a file being imported through the text 
+   loader. The TextLayout class is serializable so that the layout can be configured programmatically or imported
+   from a properly formatted XML file.
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+ 	[Sean Patterson]	6/14/2004	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="F:fotelo.TextLoader.ftlLayout">
+ -----------------------------------------------------------------------------
+ <summary>
+   The layout of the data table.
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+ 	[Sean Patterson]	6/14/2004	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="F:fotelo.TextLoader.strSourceFile">
+ -----------------------------------------------------------------------------
+ <summary>
+   The path to the file containing raw import data.
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+ 	[Sean Patterson]	6/14/2004	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="F:fotelo.TextLoader.dtTextData">
+ -----------------------------------------------------------------------------
+ <summary>
+   The strongly typed data table containing the imported results.
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+ 	[Sean Patterson]	6/14/2004	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="P:fotelo.TextLoader.Layout">
+ -----------------------------------------------------------------------------
+ <summary>
+    Gets the data table layout information.
+ </summary>
+	<value>Layout returns the ftlLayout data member.</value>
+	<remarks>
+	</remarks>
+	<history>
+ 	[Sean Patterson]	6/14/2004	Created
+ </history>
+ -----------------------------------------------------------------------------     
+
+</member><member name="P:fotelo.TextLoader.SourceFile">
+ -----------------------------------------------------------------------------
+ <summary>
+   Gets/Sets the source file infomation.
+ </summary>
+	<value>SourceFile returns the strSourceFile data memeber.</value>
+	<remarks>
+	</remarks>
+	<history>
+ 	[Sean Patterson]	6/14/2004	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="P:fotelo.TextLoader.TextData">
+ -----------------------------------------------------------------------------
+ <summary>
+    Gets the imported data table.
+ </summary>
+	<value>TextData returns the dtTextData data member.</value>
+	<remarks>
+	</remarks>
+	<history>
+ 	[Sean Patterson]	6/14/2004	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:fotelo.TextLoader.#ctor(System.String,fotelo.TextLayout)">
+ -----------------------------------------------------------------------------
+ <summary>
+    Constructor creates a new TextLoader object using the the file path and text layout specified.
+ </summary>
+	<param name="SourceFile">The path to the file containing raw data to be imported.</param>
+	<param name="TableStructure">The layout of the data table once the data is imported.</param>
+	<remarks>
+   The constructor saves the source file name and sets the layout to the TextLayout object provided.
+ </remarks>
+	<history>
+ 	[Sean Patterson]	6/14/2004	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:fotelo.TextLoader.#ctor(System.String,System.String)">
+ -----------------------------------------------------------------------------
+ <summary>
+   Constructor creates a new TextLoader object using the the file paths specified.
+ </summary>
+	<param name="SourceFile">The path to the file containing raw data to be imported.</param>
+	<param name="LayoutFile">The path to the file containing the layout of the data table.</param>
+	<remarks>
+   The constructor saves the source file name and creates a new TextLayout object using the XML file provided.
+ </remarks>
+	<history>
+ 	[Sean Patterson]	6/14/2004	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:fotelo.TextLoader.ParseDelimitedText(System.String,System.Int32,System.String,System.Collections.ArrayList)">
+ -----------------------------------------------------------------------------
+ <summary>
+   This method creates a data table using the file name, delimiter, and columns specifed.
+ </summary>
+	<param name="strFileName">The path of the source file containing raw data.</param>
+	<param name="intSkipRows">Number of "header" rows to skip before importing data.</param>
+	<param name="strDelimiter">The delimiter separating data elements within the raw data.</param>
+	<param name="alColumns">The collection of column information in the data table.</param>
+	<returns>DataTable containing the imported data.</returns>
+	<remarks>
+   The file specified is loaded into an array, with each line of text as a new value in the array. If any rows
+   are to be skipped before processing, those rows are eliminated. The parser then iterates through each line 
+   of text, splitting the line based off of the delimiter and building the data table with each column value.
+   The resulting data table is returned after the process is completed. This method throws a custom exception 
+   if an error occurs during processing.
+ </remarks>
+	<history>
+ 	[Sean Patterson]	6/14/2004	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:fotelo.TextLoader.ParsePositionText(System.String,System.Int32,System.Collections.ArrayList)">
+ -----------------------------------------------------------------------------
+ <summary>
+   This method creates a data table using the file name and columns specifed.
+ </summary>
+	<param name="strFileName">The path of the source file containing raw data.</param>
+	<param name="intSkipRows">Number of "header" rows to skip before importing data.</param>
+	<param name="alColumns">The collection of column information in the data table.</param>
+	<returns>DataTable containing the imported data.</returns>
+	<remarks>
+   The file specified is loaded into an array, with each line of text as a new value in the array. If any rows 
+   are to be skipped before processing, those rows are eliminated. The parser then iterates through each line 
+   of text, gathering and trimming the data based off of the position lengths specified. Each column in the 
+   data table stores its retrieved value. The resulting data table is returned after the process is completed.
+   This method throws a custom exception if an error occurs during processing.
+ </remarks>
+	<history>
+ 	[Sean Patterson]	6/14/2004	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:fotelo.TextLoader.ParseRegexText(System.String,System.Int32,System.String,System.Collections.ArrayList)">
+ -----------------------------------------------------------------------------
+ <summary>
+   This method creates a data table using the file name, regular expression formula, and columns specifed.
+ </summary>
+	<param name="strFileName">The path of the source file containing raw data.</param>
+	<param name="intSkipRows">Number of "header" rows to skip before importing data.</param>
+	<param name="strFormula">The regular expression formula for the row of data.</param>
+	<param name="alColumns">The collection of column information in the data table.</param>
+	<returns>DataTable containing the imported data.</returns>
+	<remarks>
+   The source file is loaded into an array, with each line of text as a new value in the array. If any rows 
+   are to be skipped before processing, those rows are eliminated. The parser then iterates through each 
+   line of text, applying the table's regular expression formula against it to split the text into its 
+   individual groups. Each group is saved into its corresponding data column and the row is added to the data
+   table. The resulting data table is returned after the process is completed. This method throws a custom 
+   exception if an error occurs during processing.
+ </remarks>
+	<history>
+ 	[Sean Patterson]	6/14/2004	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:fotelo.TextLoader.LoadFileIntoArrayList(System.String)">
+ -----------------------------------------------------------------------------
+ <summary>
+   This method loads the data from the file name specifed into an ArrayList.
+ </summary>
+	<param name="strFileName">The path of the source file containing raw data.</param>
+	<returns>ArrayList containing the contents of the file.</returns>
+	<remarks>
+   Each entry in the ArrayList reflects one line of data in the file. The CR/LF characters are removed from 
+   each line of data before insertion into the ArrayList. If any errors are encountered during the loading 
+   process, a custom exception is thrown.
+ </remarks>
+	<history>
+ 	[Sean Patterson]	6/14/2004	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:fotelo.TextLoader.BuildTableStructure(System.Collections.ArrayList)">
+ -----------------------------------------------------------------------------
+ <summary>
+   This method builds an empty data table using the column definitions specifed.
+ </summary>
+	<param name="alColumnStructure">The collection of column information in the data table.</param>
+	<returns>A strongly-typed, empty DataTable based on the column information specified.</returns>
+	<remarks>
+   The ArrayList contains a collection of TextLoader.Column structures. If any errors are encountered during the 
+   loading process, a custom exception is thrown.
+ </remarks>
+	<history>
+ 	[Sean Patterson]	6/14/2004	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:fotelo.TextLoader.LoadDataTable">
+ -----------------------------------------------------------------------------
+ <summary>
+   This method loads the data table based on the table type.
+ </summary>
+	<returns>DataTable containing loaded data.</returns>
+	<remarks>
+   If an exception is thrown by the corresponding parse method, the exception is passed up to the calling
+   method.
+ </remarks>
+	<history>
+ 	[Sean Patterson]	6/14/2004	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="T:fotelo.TextLoader">
+	<summary>
+   This module is designed to load text files with a set pattern into a data table for use within an 
+   application. This is especially useful when creating web acessible front ends to application log files
+   that output to text in a fixed format. The data within the text file can be patterened by a character 
+   delimiter, character position, or by a regular expression formula. When the data table is created by the
+   Formatted Text Loader (FTL), it is created into a strongly typed data table. The specifications for the
+   file and the columns to be created are located in a supplementary XML file.
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+ 	[Sean Patterson]	6/14/2004	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="F:fotelo.Column.ColumnName">
+ -----------------------------------------------------------------------------
+ <summary>
+   Name of the column.
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+ 	[Sean Patterson]	6/14/2004	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="F:fotelo.Column.ColumnType">
+ -----------------------------------------------------------------------------
+ <summary>
+   Value Type to be stored in column.
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+ 	[Sean Patterson]	6/14/2004	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="F:fotelo.Column.StartingPosition">
+ -----------------------------------------------------------------------------
+ <summary>
+   Starting position in a line of text for this column's value.
+   <note>This value is only used in Position type tables.</note>
+	</summary>
+	<remarks>
+	</remarks>
+	<history>
+ 	[Sean Patterson]	6/14/2004	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="F:fotelo.Column.Length">
+ -----------------------------------------------------------------------------
+ <summary>
+   The number of characters in a line of text this column uses in the data file.
+   <note>This value is only used in Position type tables.</note>
+	</summary>
+	<remarks>
+	</remarks>
+	<history>
+ 	[Sean Patterson]	6/14/2004	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="T:fotelo.Column">
+ -----------------------------------------------------------------------------
+ Project	 : FormattedTextLoader
+ Struct	 : Column
+ 
+ -----------------------------------------------------------------------------
+ <summary>
+   The structure of a column in a data table.
+ </summary>
+	<remarks>
+   The Name and Type values are the only required in the structure.
+ </remarks>
+	<history>
+ 	[Sean Patterson]	6/14/2004	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="P:fotelo.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:fotelo.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:fotelo.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

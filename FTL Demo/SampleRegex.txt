@@ -1,0 +1,100 @@
+[Tue Jul 20 15:08:30 2004]	[Web-IMS]	[19191]	[]	Generated internal event key SaWCL-07-20T15:08:30-0800_19191_0
+[Tue Jul 20 15:08:30 2004]	[Web-IMS]	[19191]	[SaWCL-07-20T15:08:30-0800_19191_0]	Operation parameters: SCTMODE = OFF, INLINE MODE = ON, Import Option = unrestrict
+[Tue Jul 20 15:09:12 2004]	[Web-IMS]	[19191]	[SaWCL-07-20T15:08:30-0800_19191_0]	Error(99): Course (yvettetest) is not added. Cannot create course using template ().
+[Tue Jul 20 15:09:12 2004]	[Web-IMS]	[19191]	[SaWCL-07-20T15:08:30-0800_19191_0]	Error(06): Unable to process membership object. Group object (yvettetest) does not exist.
+[Tue Jul 20 15:09:12 2004]	[Web-IMS]	[19191]	[SaWCL-07-20T15:08:30-0800_19191_0]	Error(99): Import file (IMSDataImport.xml) incomplete.
+[Tue Jul 20 15:11:36 2004]	[Web-IMS]	[20029]	[]	Generated internal event key SaWCL-07-20T15:11:36-0800_20029_0
+[Tue Jul 20 15:11:36 2004]	[Web-IMS]	[20029]	[SaWCL-07-20T15:11:36-0800_20029_0]	Operation parameters: SCTMODE = OFF, INLINE MODE = ON, Import Option = unrestrict
+[Tue Jul 20 15:11:40 2004]	[Web-IMS]	[20029]	[SaWCL-07-20T15:11:36-0800_20029_0]	Success: Import file (IMSDataImport.xml) complete.
+[Wed Jul 21 03:11:50 2004]	[Console-]	[16121]	[]	Generated internal event key SaWCL-07-21T03:11:50-0800_16121_0
+[Wed Jul 21 03:11:51 2004]	[Console-]	[16121]	[SaWCL-07-21T03:11:50-0800_16121_0]	Start IMS recovery process.
+[Wed Jul 21 03:11:51 2004]	[Console-]	[16121]	[SaWCL-07-21T03:11:50-0800_16121_0]	No incomplete IMS import process discovered.
+[Wed Jul 21 03:11:51 2004]	[Console-]	[16121]	[SaWCL-07-21T03:11:50-0800_16121_0]	IMS recovery process completed.
+[Wed Jul 21 06:46:10 2004]	[Console-IMS]	[5568]	[]	Generated internal event key SaWCL-07-21T06:46:10-0800_5568_0
+[Wed Jul 21 06:46:10 2004]	[Console-IMS]	[5568]	[SaWCL-07-21T06:46:10-0800_5568_0]	Operation parameters: Adaptor=IMS, INLINE MODE = ON, Import Option = unrestrict
+[Wed Jul 21 06:49:31 2004]	[Console-IMS]	[5568]	[SaWCL-07-21T06:46:10-0800_5568_0]	Success: Import file (/generic/ims/Wisp07212004.xml) complete.
+[Thu Jul 22 03:11:48 2004]	[Console-]	[7303]	[]	Generated internal event key SaWCL-07-22T03:11:48-0800_7303_0
+[Thu Jul 22 03:11:49 2004]	[Console-]	[7303]	[SaWCL-07-22T03:11:48-0800_7303_0]	Start IMS recovery process.
+[Thu Jul 22 03:11:49 2004]	[Console-]	[7303]	[SaWCL-07-22T03:11:48-0800_7303_0]	No incomplete IMS import process discovered.
+[Thu Jul 22 03:11:49 2004]	[Console-]	[7303]	[SaWCL-07-22T03:11:48-0800_7303_0]	IMS recovery process completed.
+[Thu Jul 22 06:46:13 2004]	[Console-IMS]	[26812]	[]	Generated internal event key SaWCL-07-22T06:46:13-0800_26812_0
+[Thu Jul 22 06:46:13 2004]	[Console-IMS]	[26812]	[SaWCL-07-22T06:46:13-0800_26812_0]	Operation parameters: Adaptor=IMS, INLINE MODE = ON, Import Option = unrestrict
+[Thu Jul 22 06:46:30 2004]	[Console-IMS]	[26812]	[SaWCL-07-22T06:46:13-0800_26812_0]	Success: Import file (/generic/ims/Wisp07222004.xml) complete.
+[Thu Jul 22 08:17:16 2004]	[Web-IMS]	[11121]	[]	Generated internal event key SaWCL-07-22T08:17:16-0800_11121_0
+[Thu Jul 22 08:17:16 2004]	[Web-IMS]	[11121]	[SaWCL-07-22T08:17:16-0800_11121_0]	Operation parameters: SCTMODE = OFF, INLINE MODE = ON, Import Option = unrestrict
+[Thu Jul 22 08:20:01 2004]	[Web-IMS]	[11121]	[SaWCL-07-22T08:17:16-0800_11121_0]	Error(99): Handle member (t_vanier) of course (BIO730aVanier) failed. Person does not exist.
+[Thu Jul 22 08:20:01 2004]	[Web-IMS]	[11121]	[SaWCL-07-22T08:17:16-0800_11121_0]	Error(99): Import file (IMSDataImport.xml) incomplete.
+[Thu Jul 22 08:20:30 2004]	[Web-IMS]	[12024]	[]	Generated internal event key SaWCL-07-22T08:20:30-0800_12024_0
+[Thu Jul 22 08:20:30 2004]	[Web-IMS]	[12024]	[SaWCL-07-22T08:20:30-0800_12024_0]	Operation parameters: SCTMODE = OFF, INLINE MODE = ON, Import Option = unrestrict
+[Thu Jul 22 08:20:31 2004]	[Web-IMS]	[12024]	[SaWCL-07-22T08:20:30-0800_12024_0]	Error(99): Adding of group object failed.  ID (BIO730aVanier) already exists.
+[Thu Jul 22 08:20:31 2004]	[Web-IMS]	[12024]	[SaWCL-07-22T08:20:30-0800_12024_0]	Error(99): Handle member (t_vanier) of course (BIO730aVanier) failed. Person does not exist.
+[Thu Jul 22 08:20:31 2004]	[Web-IMS]	[12024]	[SaWCL-07-22T08:20:30-0800_12024_0]	Error(99): Import file (IMSDataImport.xml) incomplete.
+[Thu Jul 22 13:06:25 2004]	[Web-IMS]	[22288]	[]	Generated internal event key SaWCL-07-22T13:06:25-0800_22288_0
+[Thu Jul 22 13:06:25 2004]	[Web-IMS]	[22288]	[SaWCL-07-22T13:06:25-0800_22288_0]	Operation parameters: SCTMODE = OFF, INLINE MODE = ON, Import Option = unrestrict
+[Thu Jul 22 13:06:27 2004]	[Web-IMS]	[22288]	[SaWCL-07-22T13:06:25-0800_22288_0]	Success: Import file (IMSDataImport.xml) complete.
+[Fri Jul 23 03:11:48 2004]	[Console-]	[12548]	[]	Generated internal event key SaWCL-07-23T03:11:48-0800_12548_0
+[Fri Jul 23 03:11:48 2004]	[Console-]	[12548]	[SaWCL-07-23T03:11:48-0800_12548_0]	Start IMS recovery process.
+[Fri Jul 23 03:11:48 2004]	[Console-]	[12548]	[SaWCL-07-23T03:11:48-0800_12548_0]	No incomplete IMS import process discovered.
+[Fri Jul 23 03:11:48 2004]	[Console-]	[12548]	[SaWCL-07-23T03:11:48-0800_12548_0]	IMS recovery process completed.
+[Fri Jul 23 06:45:14 2004]	[Console-IMS]	[1602]	[]	Generated internal event key SaWCL-07-23T06:45:14-0800_1602_0
+[Fri Jul 23 06:45:14 2004]	[Console-IMS]	[1602]	[SaWCL-07-23T06:45:14-0800_1602_0]	Operation parameters: Adaptor=IMS, INLINE MODE = ON
+[Fri Jul 23 06:45:14 2004]	[Console-IMS]	[1602]	[SaWCL-07-23T06:45:14-0800_1602_0]	Updating person_ims_info for global ID (st_vanier).
+[Fri Jul 23 06:45:14 2004]	[Console-IMS]	[1602]	[SaWCL-07-23T06:45:14-0800_1602_0]	Success: Person_ims_info updated to (st_vanier, WebCT).
+[Fri Jul 23 06:45:15 2004]	[Console-IMS]	[1606]	[]	Generated internal event key SaWCL-07-23T06:45:15-0800_1606_0
+[Fri Jul 23 06:45:15 2004]	[Console-IMS]	[1606]	[SaWCL-07-23T06:45:15-0800_1606_0]	Operation parameters: Adaptor=IMS, INLINE MODE = ON
+[Fri Jul 23 06:45:15 2004]	[Console-IMS]	[1606]	[SaWCL-07-23T06:45:15-0800_1606_0]	Updating person_ims_info for global ID (t_vanier).
+[Fri Jul 23 06:45:15 2004]	[Console-IMS]	[1606]	[SaWCL-07-23T06:45:15-0800_1606_0]	Success: Person_ims_info updated to (t_vanier, WebCT).
+[Fri Jul 23 06:46:23 2004]	[Console-IMS]	[1662]	[]	Generated internal event key SaWCL-07-23T06:46:23-0800_1662_0
+[Fri Jul 23 06:46:23 2004]	[Console-IMS]	[1662]	[SaWCL-07-23T06:46:23-0800_1662_0]	Operation parameters: Adaptor=IMS, INLINE MODE = ON, Import Option = unrestrict
+[Fri Jul 23 06:50:06 2004]	[Console-IMS]	[1662]	[SaWCL-07-23T06:46:23-0800_1662_0]	Success: Import file (/generic/ims/Wisp07232004.xml) complete.
+[Fri Jul 23 10:57:48 2004]	[Web-IMS]	[14760]	[]	Generated internal event key SaWCL-07-23T10:57:48-0800_14760_0
+[Fri Jul 23 10:57:48 2004]	[Web-IMS]	[14760]	[SaWCL-07-23T10:57:48-0800_14760_0]	Operation parameters: SCTMODE = OFF, INLINE MODE = ON, Import Option = unrestrict
+[Fri Jul 23 10:59:31 2004]	[Web-IMS]	[14760]	[SaWCL-07-23T10:57:48-0800_14760_0]	Success: Import file (IMSDataImport.xml) complete.
+[Fri Jul 23 11:00:10 2004]	[Web-IMS]	[15934]	[]	Generated internal event key SaWCL-07-23T11:00:10-0800_15934_0
+[Fri Jul 23 11:00:10 2004]	[Web-IMS]	[15934]	[SaWCL-07-23T11:00:10-0800_15934_0]	Operation parameters: SCTMODE = OFF, INLINE MODE = ON, Import Option = unrestrict
+[Fri Jul 23 11:00:11 2004]	[Web-IMS]	[15934]	[SaWCL-07-23T11:00:10-0800_15934_0]	Error(99): Adding of group object failed.  ID (EPY303Aqui) already exists.
+[Fri Jul 23 11:00:11 2004]	[Web-IMS]	[15934]	[SaWCL-07-23T11:00:10-0800_15934_0]	Error(99): Import file (IMSDataImport.xml) incomplete.
+[Sat Jul 24 03:11:44 2004]	[Console-]	[10022]	[]	Generated internal event key SaWCL-07-24T03:11:44-0800_10022_0
+[Sat Jul 24 03:11:45 2004]	[Console-]	[10022]	[SaWCL-07-24T03:11:44-0800_10022_0]	Start IMS recovery process.
+[Sat Jul 24 03:11:45 2004]	[Console-]	[10022]	[SaWCL-07-24T03:11:44-0800_10022_0]	No incomplete IMS import process discovered.
+[Sat Jul 24 03:11:45 2004]	[Console-]	[10022]	[SaWCL-07-24T03:11:44-0800_10022_0]	IMS recovery process completed.
+[Sun Jul 25 03:11:58 2004]	[Console-]	[12899]	[]	Generated internal event key SaWCL-07-25T03:11:58-0800_12899_0
+[Sun Jul 25 03:11:58 2004]	[Console-]	[12899]	[SaWCL-07-25T03:11:58-0800_12899_0]	Start IMS recovery process.
+[Sun Jul 25 03:11:58 2004]	[Console-]	[12899]	[SaWCL-07-25T03:11:58-0800_12899_0]	No incomplete IMS import process discovered.
+[Sun Jul 25 03:11:58 2004]	[Console-]	[12899]	[SaWCL-07-25T03:11:58-0800_12899_0]	IMS recovery process completed.
+[Mon Jul 26 03:12:05 2004]	[Console-]	[12175]	[]	Generated internal event key SaWCL-07-26T03:12:05-0800_12175_0
+[Mon Jul 26 03:12:05 2004]	[Console-]	[12175]	[SaWCL-07-26T03:12:05-0800_12175_0]	Start IMS recovery process.
+[Mon Jul 26 03:12:05 2004]	[Console-]	[12175]	[SaWCL-07-26T03:12:05-0800_12175_0]	No incomplete IMS import process discovered.
+[Mon Jul 26 03:12:05 2004]	[Console-]	[12175]	[SaWCL-07-26T03:12:05-0800_12175_0]	IMS recovery process completed.
+[Mon Jul 26 06:46:10 2004]	[Console-IMS]	[316]	[]	Generated internal event key SaWCL-07-26T06:46:10-0800_316_0
+[Mon Jul 26 06:46:10 2004]	[Console-IMS]	[316]	[SaWCL-07-26T06:46:10-0800_316_0]	Operation parameters: Adaptor=IMS, INLINE MODE = ON, Import Option = unrestrict
+[Mon Jul 26 06:46:25 2004]	[Console-IMS]	[316]	[SaWCL-07-26T06:46:10-0800_316_0]	Success: Import file (/generic/ims/Wisp07262004.xml) complete.
+[Mon Jul 26 16:24:54 2004]	[Web-IMS]	[28913]	[]	Generated internal event key SaWCL-07-26T16:24:54-0800_28913_0
+[Mon Jul 26 16:24:54 2004]	[Web-IMS]	[28913]	[SaWCL-07-26T16:24:54-0800_28913_0]	Operation parameters: SCTMODE = OFF, INLINE MODE = ON, Import Option = unrestrict
+[Mon Jul 26 16:25:03 2004]	[Web-IMS]	[28913]	[SaWCL-07-26T16:24:54-0800_28913_0]	Success: Import file (IMSDataImport.xml) complete.
+[Tue Jul 27 03:12:07 2004]	[Console-]	[24518]	[]	Generated internal event key SaWCL-07-27T03:12:07-0800_24518_0
+[Tue Jul 27 03:12:07 2004]	[Console-]	[24518]	[SaWCL-07-27T03:12:07-0800_24518_0]	Start IMS recovery process.
+[Tue Jul 27 03:12:07 2004]	[Console-]	[24518]	[SaWCL-07-27T03:12:07-0800_24518_0]	No incomplete IMS import process discovered.
+[Tue Jul 27 03:12:07 2004]	[Console-]	[24518]	[SaWCL-07-27T03:12:07-0800_24518_0]	IMS recovery process completed.
+[Tue Jul 27 06:46:15 2004]	[Console-IMS]	[16200]	[]	Generated internal event key SaWCL-07-27T06:46:15-0800_16200_0
+[Tue Jul 27 06:46:15 2004]	[Console-IMS]	[16200]	[SaWCL-07-27T06:46:15-0800_16200_0]	Operation parameters: Adaptor=IMS, INLINE MODE = ON, Import Option = unrestrict
+[Tue Jul 27 06:49:45 2004]	[Console-IMS]	[16200]	[SaWCL-07-27T06:46:15-0800_16200_0]	Success: Import file (/generic/ims/Wisp07272004.xml) complete.
+[Wed Jul 28 03:11:48 2004]	[Console-]	[26288]	[]	Generated internal event key SaWCL-07-28T03:11:48-0800_26288_0
+[Wed Jul 28 03:11:48 2004]	[Console-]	[26288]	[SaWCL-07-28T03:11:48-0800_26288_0]	Start IMS recovery process.
+[Wed Jul 28 03:11:48 2004]	[Console-]	[26288]	[SaWCL-07-28T03:11:48-0800_26288_0]	No incomplete IMS import process discovered.
+[Wed Jul 28 03:11:48 2004]	[Console-]	[26288]	[SaWCL-07-28T03:11:48-0800_26288_0]	IMS recovery process completed.
+[Wed Jul 28 06:46:13 2004]	[Console-IMS]	[15726]	[]	Generated internal event key SaWCL-07-28T06:46:13-0800_15726_0
+[Wed Jul 28 06:46:13 2004]	[Console-IMS]	[15726]	[SaWCL-07-28T06:46:13-0800_15726_0]	Operation parameters: Adaptor=IMS, INLINE MODE = ON, Import Option = unrestrict
+[Wed Jul 28 06:49:35 2004]	[Console-IMS]	[15726]	[SaWCL-07-28T06:46:13-0800_15726_0]	Success: Import file (/generic/ims/Wisp07282004.xml) complete.
+[Thu Jul 29 03:11:46 2004]	[Console-]	[6354]	[]	Generated internal event key SaWCL-07-29T03:11:46-0800_6354_0
+[Thu Jul 29 03:11:46 2004]	[Console-]	[6354]	[SaWCL-07-29T03:11:46-0800_6354_0]	Start IMS recovery process.
+[Thu Jul 29 03:11:46 2004]	[Console-]	[6354]	[SaWCL-07-29T03:11:46-0800_6354_0]	No incomplete IMS import process discovered.
+[Thu Jul 29 03:11:46 2004]	[Console-]	[6354]	[SaWCL-07-29T03:11:46-0800_6354_0]	IMS recovery process completed.
+[Thu Jul 29 06:46:12 2004]	[Console-IMS]	[24179]	[]	Generated internal event key SaWCL-07-29T06:46:12-0800_24179_0
+[Thu Jul 29 06:46:12 2004]	[Console-IMS]	[24179]	[SaWCL-07-29T06:46:12-0800_24179_0]	Operation parameters: Adaptor=IMS, INLINE MODE = ON, Import Option = unrestrict
+[Thu Jul 29 06:49:30 2004]	[Console-IMS]	[24179]	[SaWCL-07-29T06:46:12-0800_24179_0]	Warning: "Primary Designer" (L000550384) already exists for course (20042CPOS100212).  User (DEID) added as "Secondary Designer". MemberDB Error (1).
+[Thu Jul 29 06:49:38 2004]	[Console-IMS]	[24179]	[SaWCL-07-29T06:46:12-0800_24179_0]	Success: Import file (/generic/ims/Wisp07292004.xml) complete.
+[Thu Jul 29 06:49:38 2004]	[Console-IMS]	[24179]	[SaWCL-07-29T06:46:12-0800_24179_0]	Warning: No work files were saved for this operation.
+[Thu Jul 29 10:06:51 2004]	[Web-IMS]	[25577]	[]	Generated internal event key SaWCL-07-29T10:06:51-0800_25577_0
+[Thu Jul 29 10:06:51 2004]	[Web-IMS]	[25577]	[SaWCL-07-29T10:06:51-0800_25577_0]	Operation parameters: SCTMODE = OFF, INLINE MODE = ON, Import Option = unrestrict
+[Thu Jul 29 10:07:01 2004]	[Web-IMS]	[25577]	[SaWCL-07-29T10:06:51-0800_25577_0]	Success: Import file (IMSDataImport.xml) complete.

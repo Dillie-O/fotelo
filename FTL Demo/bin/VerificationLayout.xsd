@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema xmlns:tns="http://tempuri.org/TextLayout" elementFormDefault="qualified" targetNamespace="http://tempuri.org/TextLayout"
+   xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <xs:element name="TextLayout" type="tns:TextLayout" />
+   <xs:complexType name="TextLayout">
+      <xs:sequence>
+         <xs:element minOccurs="1" maxOccurs="1" name="TableName" type="xs:string" />
+         <xs:element minOccurs="1" maxOccurs="1" name="TableType" type="tns:TableTypes" />
+         <xs:element minOccurs="0" maxOccurs="1" name="SkipRows" type="xs:int" />
+         <xs:element minOccurs="0" maxOccurs="1" name="TableDelimiter" type="xs:string" />
+         <xs:element minOccurs="0" maxOccurs="1" name="TableFormula" type="xs:string" />
+         <xs:element minOccurs="1" maxOccurs="1" name="Columns" type="tns:ArrayOfColumn" />
+         <xs:element name="TrimSpace" type="xs:boolean" />
+      </xs:sequence>
+   </xs:complexType>
+   <xs:simpleType name="TableTypes">
+      <xs:restriction base="xs:string">
+         <xs:enumeration value="Position" />
+         <xs:enumeration value="Delimited" />
+         <xs:enumeration value="Regex" />
+      </xs:restriction>
+   </xs:simpleType>
+   <xs:complexType name="ArrayOfColumn">
+      <xs:sequence>
+         <xs:element minOccurs="1" maxOccurs="unbounded" name="Column" type="tns:Column" />
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="Column">
+      <xs:sequence>
+         <xs:element minOccurs="1" maxOccurs="1" name="ColumnName" type="xs:string" />
+         <xs:element minOccurs="1" maxOccurs="1" name="ColumnType" type="xs:string" />
+         <xs:element minOccurs="0" maxOccurs="1" name="StartingPosition" type="xs:int" />
+         <xs:element minOccurs="0" maxOccurs="1" name="Length" type="xs:int" />
+      </xs:sequence>
+   </xs:complexType>
+</xs:schema>

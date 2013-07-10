@@ -1,0 +1,9 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\FormattedTextLoader.Resources.resources
+obj\Debug\FormattedTextLoader.vbproj.GenerateResource.Cache
+bin\Debug\YavapaiCounty.Common.Data.FormattedTextLoader20.dll
+bin\Debug\YavapaiCounty.Common.Data.FormattedTextLoader20.pdb
+bin\Debug\YavapaiCounty.Common.Data.xml
+obj\Debug\YavapaiCounty.Common.Data.FormattedTextLoader20.dll
+obj\Debug\YavapaiCounty.Common.Data.xml
+obj\Debug\YavapaiCounty.Common.Data.FormattedTextLoader20.pdb

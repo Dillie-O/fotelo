@@ -1,0 +1,97 @@
+<html dir="LTR">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=Windows-1252" />
+    <meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5" />
+    <title>fotelo</title>
+    <xml>
+    </xml>
+    <link rel="stylesheet" type="text/css" href="MSDN.css" />
+  </head>
+  <body id="bodyID" class="dtBODY">
+    <div id="nsbanner">
+      <div id="bannerrow1">
+        <table class="bannerparthead" cellspacing="0">
+          <tr id="hdr">
+            <td class="runninghead">Fotelo Formatted Text Loader Class Library</td>
+            <td class="product">
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div id="TitleRow">
+        <h1 class="dtH1">fotelo Namespace</h1>
+      </div>
+    </div>
+    <div id="nstext">
+      <p>fotelo (foe-tell-o): A formatted text loader library. Fotelo will allow you to import text files of various formats into a strongly-typed .NET DataTable for use within your applications.<br />
+<br />
+Inspired and modeled off of the SQL*Loader program, fotelo allows you to import any type of text file that has a structure you can map. Space dependent, delimited (comma, pipe, etc.) and even text files you can map with a regular expression are easily imported into a strongly-typed DataTable that can then be bound, sorted, filtered, or whatever you desire.<br />
+<br />
+The key to fotelo is the marriage of the text and a "control file" that provides the mapping of the text file, as well as the columns the data will go into. This control file is generated via XML or programmatically and can be serialized or deserialized on the fly.</p>
+      <p>
+        <a href="foteloHierarchy.html">Namespace hierarchy</a>
+      </p>
+      <h3 class="dtH3">Classes</h3>
+      <div class="tablediv">
+        <table class="dtTABLE" cellspacing="0">
+          <tr valign="top">
+            <th width="50%">Class</th>
+            <th width="50%">Description</th>
+          </tr>
+          <tr valign="top">
+            <td width="50%">
+              <a href="fotelo.TextLayout.html">TextLayout</a>
+            </td>
+            <td width="50%"> This module is designed to specify the data table configuration for a file being imported through the text loader. The TextLayout class is serializable so that the layout can be configured programmatically or imported from a properly formatted XML file. </td>
+          </tr>
+          <tr valign="top">
+            <td width="50%">
+              <a href="fotelo.TextLoader.html">TextLoader</a>
+            </td>
+            <td width="50%"> This module is designed to load text files with a set pattern into a data table for use within an application. This is especially useful when creating web acessible front ends to application log files that output to text in a fixed format. The data within the text file can be patterened by a character delimiter, character position, or by a regular expression formula. When the data table is created by fotelo, it is created into a strongly typed data table. The specifications for the file and the columns to be created are located in a supplementary XML file. </td>
+          </tr>
+        </table>
+      </div>
+      <h3 class="dtH3">Structures</h3>
+      <div class="tablediv">
+        <table class="dtTABLE" cellspacing="0">
+          <tr valign="top">
+            <th width="50%">Structure</th>
+            <th width="50%">Description</th>
+          </tr>
+          <tr valign="top">
+            <td width="50%">
+              <a href="fotelo.Column.html">Column</a>
+            </td>
+            <td width="50%"> The structure of a column in a data table. </td>
+          </tr>
+        </table>
+      </div>
+      <h3 class="dtH3">Enumerations</h3>
+      <div class="tablediv">
+        <table class="dtTABLE" cellspacing="0">
+          <tr valign="top">
+            <th width="50%">Enumeration</th>
+            <th width="50%">Description</th>
+          </tr>
+          <tr valign="top">
+            <td width="50%">
+              <a href="fotelo.TextLayout.TableTypes.html">TextLayout.TableTypes</a>
+            </td>
+            <td width="50%"> Acceptable type definitions for a table </td>
+          </tr>
+        </table>
+      </div>
+      <hr />
+      <div id="footer">
+        <p>
+          <a href="mailto:spatterson@dillieodigital.net?subject=Fotelo%20Formatted%20Text%20Loader%20Class%20Library%20Documentation%20Feedback:%20fotelo%20Namespace">Send comments on this topic.</a>
+        </p>
+        <p>
+        </p>
+        <p>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+<project SchemaVersion="1.3">
+    <assemblies>
+        <assembly location="..\Libraries\bin\fotelo.dll" documentation="..\Libraries\bin\fotelo.xml" />
+    </assemblies>
+    <namespaces>
+        <namespace name="fotelo">fotelo (foe-tell-o): A formatted text loader library. Fotelo will allow you to import text files of various formats into a strongly-typed .NET DataTable for use within your applications.<br/>
+<br/>
+Inspired and modeled off of the SQL*Loader program, fotelo allows you to import any type of text file that has a structure you can map. Space dependent, delimited (comma, pipe, etc.) and even text files you can map with a regular expression are easily imported into a strongly-typed DataTable that can then be bound, sorted, filtered, or whatever you desire.<br/>
+<br/>
+The key to fotelo is the marriage of the text and a "control file" that provides the mapping of the text file, as well as the columns the data will go into. This control file is generated via XML or programmatically and can be serialized or deserialized on the fly.</namespace>
+    </namespaces>
+    <documenters>
+        <documenter name="MSDN">
+            <property name="OutputDirectory" value="C:\Projects\fotelo 2.0\Documentation\" />
+            <property name="HtmlHelpName" value="Fotelo Documentation" />
+            <property name="Title" value="Fotelo Formatted Text Loader Class Library" />
+            <property name="OutputTarget" value="HtmlHelp" />
+            <property name="ShowMissingSummaries" value="True" />
+            <property name="ShowMissingRemarks" value="True" />
+            <property name="ShowMissingParams" value="True" />
+            <property name="ShowMissingReturns" value="True" />
+            <property name="ShowMissingValues" value="True" />
+            <property name="DocumentInheritedFrameworkMembers" value="False" />
+            <property name="DocumentInternals" value="True" />
+            <property name="DocumentPrivates" value="True" />
+            <property name="SkipNamespacesWithoutSummaries" value="True" />
+            <property name="FeedbackEmailAddress" value="spatterson@dillieodigital.net" />
+        </documenter>
+    </documenters>
+</project>

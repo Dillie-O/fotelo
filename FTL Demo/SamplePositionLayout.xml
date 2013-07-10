@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextLayout xmlns="http://tempuri.org/TextLayout">
+  <TableName>Area Codes</TableName>
+  <TableType>Position</TableType>
+  <SkipRows>2</SkipRows>
+  <Columns>
+    <Column>
+      <ColumnName>Code</ColumnName>
+      <ColumnType>String</ColumnType>
+      <StartingPosition>0</StartingPosition>
+      <Length>3</Length>
+    </Column>
+    <Column>
+      <ColumnName>State</ColumnName>
+      <ColumnType>String</ColumnType>
+      <StartingPosition>3</StartingPosition>
+      <Length>2</Length>
+    </Column>
+    <Column>
+      <ColumnName>Country</ColumnName>
+      <ColumnType>String</ColumnType>
+      <StartingPosition>5</StartingPosition>
+      <Length>3</Length>
+    </Column>
+  </Columns>
+  <TrimSpace>1</TrimSpace>
+</TextLayout>

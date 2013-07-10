@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextLayout xmlns="http://tempuri.org/TextLayout">
+  <TableName>IMS Log</TableName>
+  <TableType>Regex</TableType>
+  <SkipRows>0</SkipRows>
+  <TableFormula>^\[(.*)\]\t\[(.*)\]\t\[(.*)\]\t\[(.*)\]\t(.*)$</TableFormula>
+  <Columns>
+    <Column>
+      <ColumnName>Date</ColumnName>
+      <ColumnType>String</ColumnType>
+    </Column>
+    <Column>
+      <ColumnName>Source</ColumnName>
+      <ColumnType>String</ColumnType>
+    </Column>
+    <Column>
+      <ColumnName>SourceID</ColumnName>
+      <ColumnType>Int32</ColumnType>
+    </Column>
+    <Column>
+      <ColumnName>Item Timestamp</ColumnName>
+      <ColumnType>String</ColumnType>
+    </Column>
+    <Column>
+      <ColumnName>Event</ColumnName>
+      <ColumnType>String</ColumnType>
+    </Column>
+  </Columns>
+  <TrimSpace>1</TrimSpace>
+</TextLayout>

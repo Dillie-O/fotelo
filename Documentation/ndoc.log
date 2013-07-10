@@ -1,0 +1,93 @@
+Building documentation...
+Initializing...
+Merging XML documentation...
+Building file mapping...
+Loading XSLT files...
+    namespace.xslt
+    namespacehierarchy.xslt
+    type.xslt
+    typehierarchy.xslt
+    allmembers.xslt
+    individualmembers.xslt
+    event.xslt
+    member.xslt
+    memberoverload.xslt
+    property.xslt
+    field.xslt
+    htmlcontents.xslt
+Generating HTML pages...
+fotelo.html
+foteloHierarchy.html
+fotelo.Column.html
+fotelo.ColumnMembers.html
+fotelo.ColumnFields.html
+fotelo.Column.ColumnName.html
+fotelo.Column.ColumnType.html
+fotelo.Column.Length.html
+fotelo.Column.StartingPosition.html
+fotelo.TextLayout.html
+fotelo.TextLayoutMembers.html
+fotelo.TextLayoutConstructor.html
+fotelo.TextLayoutConstructor1.html
+fotelo.TextLayoutConstructor2.html
+fotelo.TextLayoutFields.html
+fotelo.TextLayout.alColumns.html
+fotelo.TextLayout.bTrimSpace.html
+fotelo.TextLayout.enumTableType.html
+fotelo.TextLayout.intSkipRows.html
+fotelo.TextLayout.strTableDelimiter.html
+fotelo.TextLayout.strTableFormula.html
+fotelo.TextLayout.strTableName.html
+fotelo.TextLayoutProperties.html
+fotelo.TextLayout.Columns.html
+fotelo.TextLayout.SkipRows.html
+fotelo.TextLayout.TableDelimiter.html
+fotelo.TextLayout.TableFormula.html
+fotelo.TextLayout.TableName.html
+fotelo.TextLayout.TableType.html
+fotelo.TextLayout.TrimSpace.html
+fotelo.TextLayoutMethods.html
+fotelo.TextLayout.ExportControlFile.html
+fotelo.TextLayout.ImportControlFile.html
+fotelo.TextLayout.IsValid.html
+fotelo.TextLayout.ToString.html
+fotelo.TextLayout.TableTypes.html
+fotelo.TextLoader.html
+fotelo.TextLoaderMembers.html
+fotelo.TextLoaderConstructor.html
+fotelo.TextLoaderConstructor1.html
+fotelo.TextLoaderConstructor2.html
+fotelo.TextLoaderFields.html
+fotelo.TextLoader.dtTextData.html
+fotelo.TextLoader.ftlLayout.html
+fotelo.TextLoader.strSourceFile.html
+fotelo.TextLoaderProperties.html
+fotelo.TextLoader.Layout.html
+fotelo.TextLoader.SourceFile.html
+fotelo.TextLoader.TextData.html
+fotelo.TextLoaderMethods.html
+fotelo.TextLoader.BuildTableStructure.html
+fotelo.TextLoader.LoadDataTable.html
+fotelo.TextLoader.LoadFileIntoArrayList.html
+fotelo.TextLoader.ParseDelimitedText.html
+fotelo.TextLoader.ParsePositionText.html
+fotelo.TextLoader.ParseRegexText.html
+Compiling HTML Help file...
+Compiling Html Help file
+Microsoft HTML Help Compiler 4.74.8702
+
+Compiling c:\Projects\fotelo 2.0\Documentation\ndoc_msdn_temp\Fotelo Documentation.chm
+
+
+Compile time: 0 minutes, 2 seconds
+58	Topics
+327	Local links
+0	Internet links
+5	Graphics
+
+
+Created c:\Projects\fotelo 2.0\Documentation\ndoc_msdn_temp\Fotelo Documentation.chm, 40,303 bytes
+Compression decreased file by 143,719 bytes.
+
+Html Help compile complete
+Done.

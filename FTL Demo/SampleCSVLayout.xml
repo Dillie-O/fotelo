@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextLayout xmlns="http://tempuri.org/TextLayout">
+  <TableName>Information</TableName>
+  <TableType>Delimited</TableType>
+  <SkipRows>2</SkipRows>
+  <TableDelimiter>|</TableDelimiter>
+  <Columns>
+    <Column>
+      <ColumnName>Name</ColumnName>
+      <ColumnType>String</ColumnType>
+    </Column>
+    <Column>
+      <ColumnName>Address</ColumnName>
+      <ColumnType>String</ColumnType>
+    </Column>
+    <Column>
+      <ColumnName>Age</ColumnName>
+      <ColumnType>Int32</ColumnType>
+    </Column>
+  </Columns>
+  <TrimSpace>1</TrimSpace>
+</TextLayout>

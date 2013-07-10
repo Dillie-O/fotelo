@@ -1,0 +1,18 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\FTL_Demo.Resources.resources
+obj\Debug\FTL Demo.vbproj.GenerateResource.Cache
+bin\FTL Demo.dll
+bin\FTL Demo.pdb
+bin\FTL Demo.xml
+bin\fotelo.dll
+bin\fotelo.pdb
+bin\fotelo.xml
+obj\Debug\FTL Demo.dll
+obj\Debug\FTL Demo.xml
+obj\Debug\FTL Demo.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\FTL_Demo.Resources.resources
+obj\Release\FTL Demo.vbproj.GenerateResource.Cache
+obj\Release\FTL Demo.dll
+obj\Release\FTL Demo.xml
+obj\Release\FTL Demo.pdb
